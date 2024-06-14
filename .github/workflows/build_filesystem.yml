@@ -1,10 +1,6 @@
 name: Build and Release
 
-on:
-  push:
-    branches:
-      - main  # 设置触发分支
-	 
+
 jobs:
   build:
     runs-on: ubuntu-latest
